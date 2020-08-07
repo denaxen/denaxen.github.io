@@ -1,0 +1,113 @@
+body, h1, h2, h3, h4, p, a {
+  margin: 0;
+  font-size: 100%;
+  font-weight: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  background-color: #fff1eb;
+  background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+}
+
+.header{
+  height: 50vh;
+  background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  background-size: cover;
+}
+
+.header-title {
+  font-size: 70px;
+  margin: 50px auto;
+  font-weight: 100;
+  font-family: "Courier New", Courier, monospace;
+  text-transform: uppercase;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-image: url(https://i.pinimg.com/originals/d9/1e/47/d91e47a697f15303a475b84dbc51589b.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.content {
+  font-size: 0;
+  width: 900px;
+  margin: 100px auto 50px;
+}
+
+.card {
+  margin-bottom: 60px;
+  width: 400px;
+  padding: 45px 45px 70px;
+  display: inline-block;
+  box-shadow: 2px 2px 5px #7ed3f7;
+  margin-right: 90px;
+  background-color: #fafffd;
+}
+
+.no-right-margin {
+  margin-right: 0;
+}
+
+.card-image {
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: 100;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 16px;
+}
+
+.footer {
+  height: 150px;
+  width: 100%;
+  border-top: 1px solid #cccccc;
+  display: flex;
+}
+
+.wrapper {
+  margin: 30px auto;
+}
+
+.name-email {
+  margin: auto;
+  display: inline-block;
+}
+
+.e-mail {
+  text-decoration: none;
+  margin: 5px;
+}
+
+.name {
+  margin: 5px 5px 20px 5px;
+}
+
+.media {
+  margin-left: 400px;
+  display: inline-block;
+}
+
+.soc {
+  width: 30px;
+  height: 30px;
+  margin: 2px;
+}
+
+a {
+  color: #2a7ae2
+}
