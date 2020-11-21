@@ -108,6 +108,12 @@ body {
   margin: 2px;
 }
 
+.kaggle {
+  width: 60px;
+  height: 30px;
+  margin: 2px;
+}
+
 a {
   color: #2a7ae2
 }
