@@ -1,4 +1,4 @@
-body, h1, h2, h3, h4, p, a {
+body, h1, h2, h4, p, a {
   margin: 0;
   font-size: 100%;
   font-weight: normal;
@@ -126,6 +126,7 @@ body {
   width: 100%;
   border-top: 1px solid #cccccc;
   display: flex;
+
 }
 
 .wrapper {
@@ -166,3 +167,32 @@ body {
 a {
   color: #2a7ae2
 }
+
+.contacts_wrapper {
+  margin: 32px 128px;
+}
+
+.contacts_list {
+  list-style-type: none;
+}
+
+.contacts_header {
+  font-size: 36px;
+  margin: 10px;
+}
+
+.contacts_description {
+  margin: 32px 24px;
+  font-size: 16px;
+}
+
+.contact {
+  text-decoration: none;
+  font-weight: bold;
+  color: #007a8a;
+}
+
+.contact_item {
+  margin: 10px 24px;
+}
+
