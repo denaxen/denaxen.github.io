@@ -20,12 +20,61 @@ body {
   background-size: cover;
 }
 
+.topnav {
+    background-color: #1a334c;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;  
+    font-size: 17px;
+    width: 200px;
+}
+
+.topnav a.active {
+    background-color: #00406b;
+    color: white;
+}
+
+.topnav a:hover {
+    background-color: #1a4876;
+    color: white;
+}
+
+.download {
+  background-color: #edf0df;
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;  
+  font-size: 17px;
+  width: 250px;
+  margin: 16px 32px 64px;
+  position: relative;
+  border-radius: 35px;
+  left: 70%;
+  box-shadow: 0.4em 0.4em 20px rgba(122,122,122,0.2);
+}
+
+.download:hover {
+  background-color: #dae0bf;
+}
+
 .header-title {
   font-size: 70px;
   margin: 50px auto;
   font-weight: 100;
   font-family: "Courier New", Courier, monospace;
   text-transform: uppercase;
+  color: black;
 }
 
 .overlay {
