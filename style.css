@@ -36,6 +36,7 @@ body {
     text-decoration: none;  
     font-size: 17px;
     width: 200px;
+    font-family: "Trebuchet MS";
 }
 
 .topnav a.active {
@@ -179,20 +180,39 @@ a {
 .contacts_header {
   font-size: 36px;
   margin: 10px;
+  font-family: "Tahoma";
 }
 
 .contacts_description {
   margin: 32px 24px;
   font-size: 16px;
+  font-family: "Verdana";
 }
 
 .contact {
   text-decoration: none;
   font-weight: bold;
   color: #007a8a;
+  font-family: "Arial";
 }
 
 .contact_item {
   margin: 10px 24px;
 }
 
+.home_text_wrapper {
+  margin: 32px 256px;
+}
+
+.home_head {
+  text-align: center;
+  font-family: "Tahoma";
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.home_text {
+  margin: 16px 128px;
+  line-height: 24px;
+  font-family: "Verdana";
+}
