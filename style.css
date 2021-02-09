@@ -69,6 +69,26 @@ body {
   background-color: #dae0bf;
 }
 
+.headhunter {
+  background-color: #9aceeb;
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;  
+  font-size: 18px;
+  width: 300px;
+  margin: 64px;
+  position: relative;
+  border-radius: 24px;
+  left: 55%;
+  box-shadow: 0.4em 0.4em 20px rgba(122,122,122,0.2);
+}
+
+.headhunter:hover {
+  background-color: #6eb8e0;
+}
+
 .header-title {
   font-size: 70px;
   margin: 50px auto;
