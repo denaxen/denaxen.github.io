@@ -91,7 +91,7 @@ body {
 
 .header-title {
   font-size: 50px;
-  
+  margin: 0px auto;
   padding: 50px;
   text-align: center;
   font-weight: 100;
@@ -101,19 +101,21 @@ body {
 }
 
 .header-text {
-  font-size: 18px;
-  margin: auto;
-  position: relative;
-  text-align: center;
-  text-align: center;
+  font-size: 16px;
+  margin: 50px 150px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  text-align: left;
   font-weight: 100;
   font-family: monospace;
-  color: black;
+  color: #fff1eb;
 }
 
 .overlay {
   width: 100%;
   height: 100%;
+  position: relative;
   display: block;
   background-image: url(https://i.pinimg.com/originals/d9/1e/47/d91e47a697f15303a475b84dbc51589b.jpg);
   background-size: cover;
