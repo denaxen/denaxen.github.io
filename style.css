@@ -90,18 +90,31 @@ body {
 }
 
 .header-title {
-  font-size: 70px;
-  margin: 50px auto;
+  font-size: 50px;
+  
+  padding: 50px;
+  text-align: center;
   font-weight: 100;
   font-family: "Courier New", Courier, monospace;
   text-transform: uppercase;
   color: black;
 }
 
+.header-text {
+  font-size: 20px;
+  /*margin: 50px auto;*/
+  padding: 100px;
+  text-align: center;
+  font-weight: 100;
+  font-family: monospace;
+  /*text-transform: uppercase;*/
+  color: white;
+}
+
 .overlay {
   width: 100%;
   height: 100%;
-  display: flex;
+  display: block;
   background-image: url(https://i.pinimg.com/originals/d9/1e/47/d91e47a697f15303a475b84dbc51589b.jpg);
   background-size: cover;
   background-position: bottom;
