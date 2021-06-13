@@ -247,7 +247,8 @@ a {
 }
 
 .home_text {
-  margin: 16px 64px;
+  margin: 16px 216px;
   line-height: 24px;
+  font-size: 16px;
   font-family: "Verdana";
 }
