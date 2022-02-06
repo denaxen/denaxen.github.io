@@ -69,8 +69,8 @@ body {
   background-color: #dae0bf;
 }
 
-.headhunter {
-  background-color: #9aceeb;
+.last-update {
+  background-color: #afdafc;
   float: left;
   color: black;
   text-align: center;
@@ -81,12 +81,7 @@ body {
   margin: 64px;
   position: relative;
   border-radius: 24px;
-  left: 55%;
-  box-shadow: 0.4em 0.4em 20px rgba(122,122,122,0.2);
-}
-
-.headhunter:hover {
-  background-color: #6eb8e0;
+  left: 15%;
 }
 
 .header-title {
